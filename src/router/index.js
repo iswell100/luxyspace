@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"
 
-import Header from "../parts/Header"
 import HomePage from "../pages/HomePage"
+import Details from "../pages/Details"
 
 export const router = createBrowserRouter([
   {
@@ -9,7 +9,7 @@ export const router = createBrowserRouter([
     element: <HomePage />
   },
   {
-    path: "homepage",
-    element: <Header />
+    path: "/categories/:idc",
+    element: <Details />
   }
 ])
