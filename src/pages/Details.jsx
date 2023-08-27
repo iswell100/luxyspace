@@ -3,16 +3,13 @@ import React from 'react'
 import Header from '../parts/Header'
 import Breadcrumb from '../components/Breadcrumb/Index'
 
-
-// import JustArrive from '../parts/HomePage/JustArrive'
-// import BrowseRoom from '../parts/HomePage/BrowseRoom'
 import Clients from '../parts/Clients'
 import Sitemap from '../parts/Sitemap'
 import Footer from '../parts/Footer'
 import ProductDetails from '../parts/Details/ProductDetails'
 import Suggestion from '../parts/Details/Suggestion'
 
-export default function HomePage() {
+export default function Details() {
   return (
     <>
       <Header theme="black" /> 
