@@ -3,10 +3,11 @@ import React from "react";
 import Header from "../parts/Header";
 import Breadcrumb from "../components/Breadcrumb/Index";
 
-import Footer from "../parts/Footer";
-import Sitemap from "../parts/Sitemap";
 import ShoppingCart from "../parts/Cart/ShoppingCart";
 import ShippingDetails from "../parts/Cart/ShippingDetails";
+
+import Footer from "../parts/Footer";
+import Sitemap from "../parts/Sitemap";
 
 export default function Cart() {
   return (
