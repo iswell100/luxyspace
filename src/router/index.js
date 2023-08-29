@@ -5,6 +5,7 @@ import Details from "../pages/Details"
 import Cart from "../pages/Cart"
 import Congratulation from "../pages/Congratulation"
 import NotFound from "../pages/NotFound.jsx"
+import BrowseRoom from "../parts/HomePage/BrowseRoom"
 
 export const router = createBrowserRouter([
   {
